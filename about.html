@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OLDIES CAR</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/240 [Converted].png"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="shop.html">SHOP</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>   
+    </section>
+    
+    
+<!------- about us -------->
+    
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>Our History</h1>     
+            <p>Classic Trader was founded in 2013. Today's managing directors and founders Torsten Claus and Christian Plagemann have both had a soft spot for classic vehicles since their early childhood. They have dedicated their careers to the automotive industry right from the start and see great potential for digital business models in the recreational mobility market.
+
+Anyone who wanted to obtain the greatest possible transparency about the worldwide vehicle inventory had to refer to countless sources. From searching at the local retailer, researching hundreds of print and club magazines, to small-scale searches in many smaller and larger online portals. Classic Trader's mission is to gradually bring together the world's largest inventory on a specialized platform.
+
+"We look for the answers to the central questions of Classic mobility for our customers and see it as our task to assist the entire purchasing decision process and digitize the surrounding service landscape. The focus here is above all on the often intransparent relationship between buyer and seller".
+
+Classic Trader increases transparency, strengthens confidence in local trading and reduces the barriers to international trade. New standards enable buyers to make a sound and responsible purchase decision that can be backed by a special guarantee and secure payment. Sellers are supported through marketing that is appropriate to their needs, and that brings the right buyers to the right markets quickly and efficiently.</p>
+        </div>
+        <div class="about-col">
+            <img src="images/muu.jpg">
+        </div>
+    </div>    
+</section>
+    
+<!-------- footer ---------->
+
+<section class="footer">
+        <h4>Disclaimer</h4>
+	
+	<p>The information on this website is for general informational purposes only. Retro cars company  makes no representation or warranty, express or implied. <br>Your use of the site is solely at your own risk. This sitee may contain links to third party content, which we do not warrant, <br>endorse, or assume liability for</p>
+	
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        
+</section>    
+  
+  
+<!----JavaScript---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script> 
+    
+</body>
+</html>    
